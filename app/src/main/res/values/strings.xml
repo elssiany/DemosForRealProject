@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">DemosForRealProject</string>
+    <string name="obtener_n_mero_de_simcard">Obtener número de SIMCARD</string>
+    <string name="permiso_concedido">Permiso concedido</string>
+    <string name="permiso_denegado">Permiso denegado</string>
+    <string name="tomar_captura_de_una_vista">Tomar captura de una vista</string>
+    <string name="tomar_captura">Tomar captura</string>
+    <string name="ver_captura">Ver captura</string>
+    <string name="screenshot">Screenshot :)</string>
+    <string name="capturando_pantalla">Capturando pantalla…</string>
+    <string name="debe_tomar_una_captura_primero">Debe tomar una captura primero</string>
+    <string name="captura_de_pantalla_hecha">Captura de pantalla hecha</string>
+    <string name="cambiar_tema">Cambiar tema</string>
+    <string name="title_activity_bottom_navigation">MainActivity</string>
+    <string name="cambiar_tamano_con_pellisco">Cambiar tamaño con pellisco</string>
+    <string name="error_no_internet">No hemos detectado una conexión a internet, revisa tu configuración e intenta nuevamente.</string>
+    <string name="error_servidor">En estos momentos no es posible realizar esta operación, por favor intenta más tarde o verifica que tengas acceso a internet</string>
+    <string name="error_dato_malformado_servicio">Ocurrio un error en el servicio, intente más tarde por favor</string>
+    <string name="error_inesperado_servicios">Temporalmente no está disponible el acceso a la aplicación, por favor intenta más tarde.</string>
+    <string name="go">GO</string>
+    <string name="retrofit_rxjava">Retrofit RxJava</string>
+    <string name="retrofit_livedata">Retrofit LiveData</string>
+    <string name="cargando">Cargando...</string>
+    <string name="cambiar_tama_o_con_dualtouch">Cambiar tamaño con DualTouch</string>
+</resources>

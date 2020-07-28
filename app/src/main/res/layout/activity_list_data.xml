@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".retrofitWithRxJava.ListDataActivity">
+    <TextView
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:text="Prueba de red en segunda plano, validan ciclo de vida del ApiClient"
+        android:textSize="17sp"
+        android:textColor="@color/negro"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_ir"
+        android:onClick="hacerPeticion"
+        android:layout_gravity="center"
+        android:text="@string/go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_marginTop="40dp"
+        android:name="com.dkbrothers.apps.demosforrealproject.retrofitWithLivedataCourutinas.ListLiveDataFragment"
+        android:id="@+id/article_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

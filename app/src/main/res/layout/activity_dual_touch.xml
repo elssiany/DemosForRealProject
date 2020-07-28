@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".viewPinchZoomable.DualTouchActivity">
+
+    <TextView
+        android:padding="4dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:id="@+id/tv"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/shape_br_gray_radio_10"
+        android:contentDescription="@null"
+        android:layout_width="60dp"
+        android:layout_height="60dp"/>
+
+    <TextView
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/negro"
+        android:textStyle="bold"
+        android:text="Bienvenido"
+        android:id="@+id/tv_coordenadas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
