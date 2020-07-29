@@ -78,8 +78,8 @@ class DualTouchActivity : AppCompatActivity() {
                         if(puntoInicialY==0)
                             puntoInicialY = event.getY(1).toInt()
 
-                        puntoFinalX = puntoInicialX
-                        puntoFinalY = puntoInicialY
+                        //puntoFinalX = puntoInicialX
+                        //puntoFinalY = puntoInicialY
                     }
 
 
@@ -172,17 +172,17 @@ class DualTouchActivity : AppCompatActivity() {
             coordenadaActual.yTamInicial = layoutParamsAnterior.height
             tv.tag = coordenadaActual
         }else{
-            /*
+
             if(coordenadaActual.xRedimensionado == 0 && coordenadaActual.yRedimensionado==0) {
-                val nuevaCoordenada = Coordenada(width, height)
+                val nuevaCoordenada = FullCoordenada(width, height)
                 tv.tag = nuevaCoordenada
             }else{
-                val coordenadaInicial = tv.tag as Coordenada
+                val coordenadaInicial = tv.tag as FullCoordenada
                 width = coordenadaInicial.xRedimensionado
                 height = coordenadaInicial.yRedimensionado
                 tv.tag = coordenadaInicial
             }
-            */
+
             if(width < coordenadaX){
                 width += coordenadaX
                 Log.d("DualTouchActivity", "coordenadaX:$coordenadaX")
